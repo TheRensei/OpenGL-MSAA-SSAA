@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{36f42b50-2400-4e78-97d3-c04c744652a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CoreStructures">
+      <UniqueIdentifier>{fe980ebc-918b-4f37-bb9d-d23eff876f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CoreStructures\Headers">
+      <UniqueIdentifier>{a4826d2a-d70d-4fb3-96ea-333c9b886a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CoreStructures\Sources">
+      <UniqueIdentifier>{eaf73aaa-e5a4-4125-b350-d998b64e2408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Additional">
+      <UniqueIdentifier>{bac414dd-3fc3-4a27-941c-ca2bfed87329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Camera.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Mesh.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Model.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\ShaderLoader.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\TextureLoader.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Timer.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Circle.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\PrincipleAxes.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\Sphere.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\TexturedQuad.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="IslandSSAA.cpp">
+      <Filter>Resource Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\SkyBox.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Resources\CoreStructures\TextRenderer.cpp">
+      <Filter>Resource Files\CoreStructures\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Resources\CoreStructures\Camera.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\Model.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\Mesh.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\ShaderLoader.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\stb_image.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\TextureLoader.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\Timer.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\Circle.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\PrincipleAxes.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\Sphere.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\TexturedQuad.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Resource Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Resource Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="IslandSSAA.h">
+      <Filter>Resource Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="UBOs.h">
+      <Filter>Resource Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\SkyBox.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Resources\CoreStructures\TextRenderer.h">
+      <Filter>Resource Files\CoreStructures\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\fullscreen_texture.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\fullscreen_texture.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Multi_Light_Shader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Multi_Light_Shader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Skybox_shader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Skybox_shader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\basic_shader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\basic_shader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\SSAA.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\SSAA.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
