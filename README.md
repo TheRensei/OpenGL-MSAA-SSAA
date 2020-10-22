@@ -1,5 +1,5 @@
 # OpenGL-MSAA-SSAA
- A uni coursework. OpenGL implementation of MSAA and SSAA and performance compatison.
+ A uni coursework. OpenGL implementation of MSAA and SSAA and performance comparison.
  
  Implementation in [OpenGL folder](Coursework/OpenGL) and [Shaders folder](Coursework/OpenGL/Resources/Shaders)
  
